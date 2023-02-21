@@ -9,7 +9,8 @@ nav {
   padding-right: 1.5em; 
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
+  position: fixed;
 }
 
 nav span {
