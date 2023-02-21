@@ -20,3 +20,14 @@ nav span {
 #subPageTitle {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav div i {
+  margin-top: 0.5em;
+  color: red;
+}

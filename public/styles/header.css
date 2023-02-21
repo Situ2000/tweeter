@@ -1,12 +1,18 @@
 
 
-header {
-  height: 520px;
+.header {
+  /* height: 520px; */
+  padding-top: 6em;
   width: 100%;
   color: #FFFFFF;
   background-color: #e1a23c;
+  background-image: url('/images/background-header.png');
   display: flex;
-  justify-items: center;
-  align-content: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.last-name {
+  font-weight: 100;
 }
