@@ -1,0 +1,32 @@
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  border: none;
+  border-bottom: 3px solid #555248ff;
+  width: 100%;
+  font-size: 16px;
+  outline-width: 0;
+  margin: 5px 0;
+  background-color: transparent;
+}
+
+button {
+  font-family: 'Bungee';
+  background-color: #424EA7ff;
+  color: #fff;
+  border: 2px solid #424EA7ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
