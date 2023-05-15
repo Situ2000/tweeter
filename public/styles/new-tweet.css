@@ -1,5 +1,4 @@
-
-section {
+/* section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,6 +7,24 @@ section {
 .textBox {
   display: flex;
   flex-direction: column;
+} */
+
+.tweet-card {
+  border-radius: 5px;
+  margin: 0 auto 2rem auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.tweet-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+label {
+  display: block;
 }
 
 textarea {
@@ -18,15 +35,142 @@ textarea {
   outline-width: 0;
   margin: 5px 0;
   background-color: transparent;
+  padding: 10px;
+}
+
+textarea:hover,
+textarea:focus {
+  outline: none;
 }
 
 button {
-  font-family: 'Bungee';
-  background-color: #424EA7ff;
+  font-family: "Bungee";
+  background-color: #424ea7ff;
   color: #fff;
-  border: 2px solid #424EA7ff;
+  border: 2px solid #424ea7ff;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
+
+button:hover {
+  color: #424ea7ff;
+  background-color: white;
+}
+
+#character-count {
+  font-size: 20px;
+  font-family: "Bungee";
+}
+
+/* Tweet Item */
+.tweet-item {
+  border: 3px solid #555248ff;
+  padding: 20px 10px;
+  margin: 0 auto 2rem auto;
+  cursor: pointer;
+}
+
+.tweet-item:hover {
+  box-shadow: rgba(66, 78, 167, 0.466) 5px 5px 3px;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: rgb(161, 161, 161);
+}
+
+.tweet-user {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-user .user-avatar {
+  width: 64px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.tweet-handle {
+  font-weight: bold;
+
+  color: #0084b47c;
+}
+
+#tweet-content {
+  margin-bottom: 10px;
+}
+
+.tweet-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweet-metadata {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-time {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.tweet-actions {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-actions i {
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.2s;
+  color: #424ea7ff;
+}
+
+.tweet-actions i:hover {
+  color: #df9a00ff;
+}
+
+.red {
+  color: red;
+}
+
+/* .d-none{
+  display: none;
+} */
+
+/* Responsive */
+/* .container {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* Two-column layout for medium devices and above */
+/* @media only screen and (min-width: 768px) {
+  .container {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 2rem;
+  }
+
+  main {
+      margin-top: 0;
+      flex: 1;
+  }
+
+  nav {
+      background-color: var(--blue);
+  }
+
+  .banner {
+      width: fit-content;
+      height: fit-content;
+  }
+} */
