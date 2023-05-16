@@ -155,6 +155,7 @@ $(document).ready(function () {
                 data.unshift(response);
                 renderTweets(data);
                 $('#error').text("");
+                $("#character-count").text(140);
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 // Show an error message if the request fails
