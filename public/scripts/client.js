@@ -166,7 +166,8 @@ $(document).ready(function () {
     });
 
     $("#subPageTitle").click(function () {
-        $(".new-tweet").toggleClass("hidden");
+        $(".new-tweet").removeClass("hidden");
+        $(window).scrollTop(0);
     });
 
 });
